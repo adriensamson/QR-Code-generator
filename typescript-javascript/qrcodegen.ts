@@ -24,7 +24,7 @@
 "use strict";
 
 
-namespace qrcodegen {
+export namespace qrcodegen {
 	
 	type bit  = number;
 	type byte = number;
@@ -954,7 +954,7 @@ namespace qrcodegen {
 
 /*---- Public helper enumeration ----*/
 
-namespace qrcodegen.QrCode {
+export namespace qrcodegen.QrCode {
 	
 	type int = number;
 	
@@ -987,7 +987,7 @@ namespace qrcodegen.QrCode {
 
 /*---- Public helper enumeration ----*/
 
-namespace qrcodegen.QrSegment {
+export namespace qrcodegen.QrSegment {
 	
 	type int = number;
 	
